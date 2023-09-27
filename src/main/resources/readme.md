@@ -6,3 +6,7 @@
    4. Dentro de esta clase(Interfaz) es donde se van a mandar a llamar a los metodos CRUD.
 5. Creacion de servicio(IUserService).
    6. Dentro de esta clase(Interfaz) es donde se van a definir los metodos CRUD a utilizar.
+6. Creacion del Dto(UserDto).
+   7. Dentro de esta clase se crea un archivo plano con los atributos mapeados dentro del la entidad.
+8. Creacion de la implementacion del servico.
+   9. Dentro de esta clase se imp,mentan los metodos CRU que se definieron dentro de la interfaz IUserService.
