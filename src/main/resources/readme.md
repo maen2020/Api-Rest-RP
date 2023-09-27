@@ -10,3 +10,7 @@
    7. Dentro de esta clase se crea un archivo plano con los atributos mapeados dentro del la entidad.
 8. Creacion de la implementacion del servico.
    9. Dentro de esta clase se imp,mentan los metodos CRU que se definieron dentro de la interfaz IUserService.
+10. Creacion del controlador(UserController).
+    11. Dentro de esta clase van colocar los metodos CRUD(Get, Post, Put, Delete, ect..)
+12. Creacion del payload con response(MessageResponse).
+    13. Dentro de esta clase se colocan los atributos con los que que va a responder el back en caso de un fallo.

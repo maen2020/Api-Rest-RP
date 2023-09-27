@@ -35,7 +35,7 @@ public class UserImplService implements IUserService {
 
     @Transactional(readOnly = true)
     @Override
-    public User getById(Long id) {
-        return userDao.findById(id).orElseThrow(null);
+    public User findById(Long id) {
+        return userDao.findById(id).orElse(null);
     }
 }
